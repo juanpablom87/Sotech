@@ -15,7 +15,7 @@
 			}
 			form {
 				/* Just to center the form on the page */
-				margin: 0 auto;
+				margin: auto;
 				width: 400px;
 				
 			}
@@ -27,7 +27,7 @@
 			}
 
 			form li + li {
-				margin-top: 1em;
+				margin-top: 0.5em;
 			}
 
 			label {
@@ -43,8 +43,11 @@
 				font: "avenir";
 				/* To give the same size to all text fields */
 				width: 300px;
+				border: none
 				box-sizing: border-box; /* To harmonize the look & feel of text field border */
-				width: 85%;
+				width: 100%;
+				padding: 2px 28px;
+				text-align: :left;
 			}
 
 			input:focus,
@@ -54,9 +57,9 @@
 
 			textarea {
 				/* To properly align multiline text fields with their labels */
-				vertical-align: top;
+				vertical-align: center;
 				/* To give enough room to type some text */
-				height: 5em;
+				height: 4em;
 			}
 
 			.button {
@@ -73,6 +76,7 @@
   				background-color:orangered;
   				color: white;
   				padding: 14px 28px;
+				Font: "avenir";
   				font-size: 24px;
   				cursor: pointer;
   				text-align: center;
